@@ -26,3 +26,8 @@ ProblemFilters.exclude[DirectMissingMethodProblem]("akka.stream.impl.FanoutProce
 ProblemFilters.exclude[DirectMissingMethodProblem]("akka.stream.impl.IslandTracking.this")
 ProblemFilters.exclude[DirectMissingMethodProblem]("akka.stream.impl.GraphStageIsland.this")
 ProblemFilters.exclude[DirectMissingMethodProblem]("akka.stream.impl.fusing.GraphInterpreterShell.this")
+
+# divertTo
+ProblemFilters.exclude[ReversedMissingMethodProblem]("akka.stream.scaladsl.FlowOpsMat.divertToMat")
+ProblemFilters.exclude[ReversedMissingMethodProblem]("akka.stream.scaladsl.FlowOps.divertTo")
+ProblemFilters.exclude[ReversedMissingMethodProblem]("akka.stream.scaladsl.FlowOps.divertToGraph")
